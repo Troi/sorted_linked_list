@@ -1,0 +1,26 @@
+{
+  "name": "vit_fux/sorted_linked_list",
+  "description": "Test work for Shipmonk",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vit Fux",
+      "email": "vit.fux@protonmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Test\\": "tests/",
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "scripts": {
+    "tests": [
+      "./vendor/bin/phpunit --stop-on-defect --display-warnings --display-deprecations --display-notices  --testdox tests"
+    ]
+  }
+}
